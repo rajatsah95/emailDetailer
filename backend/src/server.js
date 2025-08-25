@@ -34,7 +34,8 @@ async function start() {
     port: process.env.IMAP_PORT || 993,
     tls: process.env.IMAP_TLS === 'true' || process.env.IMAP_TLS === true,
     user: process.env.IMAP_USER,
-    password: process.env.IMAP_PASSWORD
+    password: process.env.IMAP_PASSWORD,
+    authTimeout: 30000
   };
 
   const pollSeconds = parseInt(process.env.IMAP_POLL_INTERVAL || '10', 10);
