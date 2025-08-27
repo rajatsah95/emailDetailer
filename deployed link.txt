@@ -1,0 +1,2 @@
+frontend - https://emaildetailer.netlify.app/
+backend- https://emaildetailerbackend-1.onrender.com/
