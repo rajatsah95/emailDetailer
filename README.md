@@ -5,6 +5,11 @@
 - Backend polls an IMAP mailbox you configure and looks for unseen messages whose subject contains a generated TEST_SUBJECT_TOKEN. When such an email arrives it parses headers and stores the raw + processed data in MongoDB.
 - Frontend displays the configured mailbox address and the token, and shows processed emails with their receiving chain and detected ESP.
 
+## Deployed Links
+
+-Frontend Deployed Link: https://emaildetailer.netlify.app/  
+-Backend Deployed Link: https://emaildetailerbackend-1.onrender.com/
+
 ## Quickstart
 
 1. Install MongoDB and ensure it is running.
